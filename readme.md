@@ -1,3 +1,7 @@
+# Jib_Mavan_Npm
+
+This app uses jib maven plugin to build docker images for npm project.
+
 ### build:
 
 `mvn clean install jib:build -Ddocker.image.tag=2`
